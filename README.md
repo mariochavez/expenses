@@ -1,24 +1,63 @@
-# README
+# Aprende a crear aplicaciones Web modernas.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![Aprende a crear aplicaciones Web modernas](readme/aprende.jpg)
 
-Things you may want to cover:
+Este repositorio contiene el código fuente del curso Aprende a crear aplicaciones Web modernas. Para conocer más sobre 
+el curso visitar el sitio [Aprende a crear aplicaciones Web modernas](https://cursos.mariochavez.io)
 
-* Ruby version
+El código del repositorio está organizado en __branches__ que corresponden a cada uno de los diferentes videos del curso.
+Puedes revisar el branch __main__ para ver el proyecto completo o navegar a través de las __branches__ para encontrar los
+cambios que se fueron realizando en cada video durante el desarrollo del curso.
 
-* System dependencies
 
-* Configuration
+## Requisitos 
 
-* Database creation
+Para ejecutar la aplicación en tu computadora personal es necesario que cumplas con los siguientes requisitos.
 
-* Database initialization
+* Versión de Ruby: 3.0 o mejor
 
-* How to run the test suite
+* Versión de Ruby on Rails: 7.0 o mejor
 
-* Services (job queues, cache servers, search engines, etc.)
+Otras dependencias
 
-* Deployment instructions
+* Versión de Postgresql:  13.0 o mejor
 
-* ...
+* Configurar Overmind
+
+## Ejecutar la aplicación.
+
+Después de clonar el repositorio y elegir alguna de las __branches__ es indispensable ejecutar dos comandos para preparar
+el entorno.
+
+```bash
+$ bin/setup
+$ bin/rails db:migrate
+```
+
+Una vez que ambos comandos finalizaron exitosamente, para iniciar el servidor de Ruby on Rails debes ejecutar el siguiente 
+comando.
+
+```bash
+$ overmind start
+```
+
+Cuando el servidor complete su proceso de **boot**, abre tu navegador en la dirección http://localhost:3002 para ver la
+aplicación.
+
+Si deseas ejecutar la pruebas automáticas de la aplicación, entonces ejecuta el siguiente comando.
+
+```bash
+$ bin/rails test
+```
+
+Para ejecutar las pruebas, incluyendo el **linter** y las herramientas de auditoría de seguridad ejecuta el siguiente 
+comando.
+
+```bash
+$ bin/ci
+```
+
+---
+
+Derechos reservados ©2022. Mario Alberto Chávez Cárdenas
+
