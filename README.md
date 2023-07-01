@@ -2,12 +2,12 @@
 
 ![Aprende a crear aplicaciones Web modernas](readme/aprende.jpg)
 
-Este repositorio contiene el código fuente del curso Aprende a crear aplicaciones Web modernas. Para conocer más sobre 
-el curso visitar el sitio [Aprende a crear aplicaciones Web modernas](https://cursos.mariochavez.io)
+Este repositorio contiene el código fuente de la serie Aprende a crear aplicaciones Web modernas. Para conocer más sobre 
+la serie visita el sitio [Aprende a crear aplicaciones Web modernas](https://cursos.mariochavez.io)
 
-El código del repositorio está organizado en __branches__ que corresponden a cada uno de los diferentes videos del curso.
+El código del repositorio está organizado en __branches__ que corresponden a cada uno de los diferentes videos de la serie.
 Puedes revisar el branch __main__ para ver el proyecto completo o navegar a través de las __branches__ para encontrar los
-cambios que se fueron realizando en cada video durante el desarrollo del curso.
+cambios que se fueron realizando en cada video durante el desarrollo de la serie.
 
 
 ## Requisitos 
