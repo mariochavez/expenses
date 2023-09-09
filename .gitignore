@@ -36,3 +36,5 @@
 config/database.yml
 .solargraph.yml
 config/definitions.rb
+
+tailwind.config.js
